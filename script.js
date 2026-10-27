@@ -135,9 +135,9 @@ garden.addEventListener("pointerdown", (event) => {
 
 // Foto dibaca otomatis dari folder foto/. Klik bingkai untuk membuka foto besar.
 const photoSlots = [
-  { frameId: "photoFrame1", path: "foto/foto-1.jpg", imageId: "photoImage1", placeholderId: "photoPlaceholder1", label: "Foto 01 — kenangan di bunga kiri" },
-  { frameId: "photoFrame2", path: "foto/foto-2.jpg", imageId: "photoImage2", placeholderId: "photoPlaceholder2", label: "Foto 02 — kenangan di bunga tengah" },
-  { frameId: "photoFrame3", path: "foto/foto-3.jpg", imageId: "photoImage3", placeholderId: "photoPlaceholder3", label: "Foto 03 — kenangan di bunga kanan" }
+  { frameId: "photoFrame1", path: "foto-1.jpg", imageId: "photoImage1", placeholderId: "photoPlaceholder1", label: "Foto 01 — kenangan di bunga kiri" },
+  { frameId: "photoFrame2", path: "foto-2.jpg", imageId: "photoImage2", placeholderId: "photoPlaceholder2", label: "Foto 02 — kenangan di bunga tengah" },
+  { frameId: "photoFrame3", path: "foto-3.jpg", imageId: "photoImage3", placeholderId: "photoPlaceholder3", label: "Foto 03 — kenangan di bunga kanan" }
 ];
 
 let lastPhotoTrigger = null;
